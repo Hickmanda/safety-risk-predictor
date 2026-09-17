@@ -1,0 +1,72 @@
+{
+  "selected_threshold": 0.64,
+  "selection_objective": "validation macro F1",
+  "validation": {
+    "default": {
+      "accuracy": 0.73703,
+      "balanced_accuracy": 0.6106182313167846,
+      "precision_safe": 0.7405564454744783,
+      "recall_safe": 0.9495964804941293,
+      "f1_safe": 0.8321493084145555,
+      "precision_unsafe": 0.7111129665191618,
+      "recall_unsafe": 0.27163998213943996,
+      "f1_unsafe": 0.3931134753409799,
+      "f1_macro": 0.6126313918777677,
+      "roc_auc": 0.715249210049751
+    },
+    "optimized": {
+      "accuracy": 0.70721,
+      "balanced_accuracy": 0.6479896733929077,
+      "precision_safe": 0.7756831328169862,
+      "recall_safe": 0.8067913643912246,
+      "f1_safe": 0.7909314863079724,
+      "precision_unsafe": 0.5362749554211391,
+      "recall_unsafe": 0.4891879823945908,
+      "f1_unsafe": 0.5116504044700192,
+      "f1_macro": 0.6512909453889958,
+      "roc_auc": 0.715249210049751
+    }
+  },
+  "test": {
+    "default": {
+      "accuracy": 0.7578,
+      "balanced_accuracy": 0.6176998898359345,
+      "precision_safe": 0.7627969975732265,
+      "recall_safe": 0.9547220456311365,
+      "f1_safe": 0.8480361400426654,
+      "precision_unsafe": 0.7189829022358615,
+      "recall_unsafe": 0.2806777340407325,
+      "f1_unsafe": 0.4037419990152634,
+      "f1_macro": 0.6258890695289644,
+      "roc_auc": 0.7234577055615439
+    },
+    "optimized": {
+      "accuracy": 0.72892,
+      "balanced_accuracy": 0.6620175271926396,
+      "precision_safe": 0.7998599459006714,
+      "recall_safe": 0.8229568411386593,
+      "f1_safe": 0.8112440291336499,
+      "precision_unsafe": 0.5387729564609326,
+      "recall_unsafe": 0.5010782132466199,
+      "f1_unsafe": 0.5192423651260951,
+      "f1_macro": 0.6652431971298725,
+      "roc_auc": 0.7234577055615439
+    }
+  },
+  "stochastic_oracle": {
+    "observed_test_metrics": {
+      "accuracy": 0.7591,
+      "balanced_accuracy": 0.6189397907631069,
+      "precision_safe": 0.7633344988213533,
+      "recall_safe": 0.9561065197428834,
+      "f1_safe": 0.8489143659922481,
+      "precision_unsafe": 0.7259899462033689,
+      "recall_unsafe": 0.2817730617833305,
+      "f1_unsafe": 0.4059772155644326,
+      "f1_macro": 0.6274457907783404,
+      "roc_auc": 0.7247186356672455
+    },
+    "theoretical_bayes_accuracy_ceiling": 0.7582701660489928,
+    "noise_standard_deviation": 0.08
+  }
+}

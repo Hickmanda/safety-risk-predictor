@@ -42,3 +42,6 @@ models/*.joblib
 
 # Logs
 *.log
+
+# MLflow local database
+mlflow.db
