@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Generated datasets
+data/*.csv
+data/*.parquet
+
+# Allow a small sample dataset later
+!data/sample_dataset.csv
+
+# MLflow artifacts
+mlruns/
+mlartifacts/
+
+# Trained models
+models/*.pkl
+models/*.joblib
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log

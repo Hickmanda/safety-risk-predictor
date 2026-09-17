@@ -1,0 +1,56 @@
+[build-system]
+requires = [
+    "setuptools>=68",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "safety-risk-predictor"
+version = "0.1.0"
+description = "Machine learning and MLOps pipeline for construction safety behavior prediction"
+readme = "README.md"
+requires-python = ">=3.11"
+
+authors = [
+    {name = "Daniil Marchici"}
+]
+
+keywords = [
+    "machine-learning",
+    "construction-safety",
+    "agent-based-modeling",
+    "mlops",
+]
+
+dependencies = [
+    "mesa>=2.3.0,<4.0",
+    "numpy>=1.26.0,<3.0",
+    "pandas>=2.2.0,<4.0",
+]
+
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0,<10.0",
+    "flake8>=7.0.0,<8.0",
+]
+
+
+[tool.setuptools]
+packages = [
+    "src",
+]
+
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+
+python_files = [
+    "test_*.py",
+]
+
+addopts = "-ra"

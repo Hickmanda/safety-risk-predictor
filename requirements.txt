@@ -1,0 +1,7 @@
+mesa>=2.3.0
+numpy>=1.26.0
+pandas>=2.2.0
+networkx>=3.0
+
+pytest>=8.0.0
+flake8>=7.0.0
