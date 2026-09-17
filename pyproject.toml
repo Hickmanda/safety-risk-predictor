@@ -8,7 +8,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "safety-risk-predictor"
-version = "0.1.0"
+version = "1.0.1"
 description = "Machine learning and MLOps pipeline for construction safety behavior prediction"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -16,6 +16,7 @@ requires-python = ">=3.11"
 authors = [
     {name = "Daniil Marchici"}
 ]
+
 
 keywords = [
     "machine-learning",
@@ -30,6 +31,11 @@ dependencies = [
     "pandas>=2.2.0,<4.0",
 ]
 
+[project.urls]
+Homepage = "https://safety-risk-predictor.streamlit.app"
+Repository = "https://github.com/Hickmanda/safety-risk-predictor"
+Documentation = "https://github.com/Hickmanda/safety-risk-predictor#readme"
+API = "https://safety-risk-predictor-api.onrender.com/docs"
 
 [project.optional-dependencies]
 dev = [

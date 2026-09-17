@@ -125,3 +125,13 @@ flowchart TD
     O --> Q[Code Quality]
     O --> R[Docker Build]
     O --> S[API Smoke Test]
+
+## Author
+
+**Daniil Marchici**
+Project author and developer.
+
+- GitHub: [@Hickmanda](https://github.com/Hickmanda)
+- Repository: [safety-risk-predictor](https://github.com/Hickmanda/safety-risk-predictor)
+- Live Demo: https://safety-risk-predictor.streamlit.app
+- Production API: https://safety-risk-predictor-api.onrender.com
