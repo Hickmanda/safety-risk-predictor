@@ -45,3 +45,21 @@ models/*.joblib
 
 # MLflow local database
 mlflow.db
+
+# Trained models are ignored by default
+models/*.pkl
+models/*.joblib
+
+# The selected production model is intentionally versioned
+!models/best_model.pkl
+
+# Generated datasets
+data/*.csv
+data/*.parquet
+
+# Small reproducible examples are allowed in Git
+!data/sample_dataset.csv
+!data/sample_batch.csv
+
+# Local AI/editor configuration
+.agents/
